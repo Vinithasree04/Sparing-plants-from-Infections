@@ -1,0 +1,191 @@
+<html>
+<head>
+</head>
+<style>
+ body{
+    background-image: url(bg5.jpeg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    margin:0;
+    background-size:100%;
+}
+.button {
+      display: inline-block;
+      padding: 10px 15px;
+      background-color: #536153;
+      color: white;
+      text-decoration: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    .button:hover {
+      background-color: #aec9b0;
+    }
+    .previous {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+
+    .next {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+button{
+background-color: skyblue;
+}
+  .item{
+   justify-content: space-around;
+    align-content: center;
+    border-image-slice: 1;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+.pos1{
+    height: 350px;
+    width: 350px;
+    background-image: url(rose.jpeg);
+    background-size: 350px;
+    background-position: center;
+    transition: .5s;
+}
+.pos2{
+    height: 350px;
+    width: 350px;
+    background-image: url(jasmine.jpeg);
+    background-size: 350px;
+    background-position: center;
+    transition: .5s;
+}
+.pos3{
+    height: 350px;
+    width: 350px;
+    background-image: url(lily.jpg);
+    background-size: 350px;
+    background-position: center;
+    transition: .5s;
+}
+.pos4{
+    height: 350px;
+    width: 350px;
+    background-image: url(marigold.jpg);
+    background-size: 350px;
+    background-position: center;
+    transition: .5s;
+}
+.pos5{
+    height: 350px;
+    width: 350px;
+    background-image: url(narcissus.jpg);
+    background-size: 350px;
+    background-position: center;
+    transition: .5s;
+}
+.pos6{
+    height: 350px;
+    width: 350px;
+    background-image: url(sunflower.jpg);
+    background-size: 350px;
+    background-position: center;
+    transition: .5s;
+}
+.card{
+   margin: 20px;
+    width: 350px;
+    background:linear-gradient(150deg,#f17501,#f1e2b1);
+    display: grid;
+    justify-content: center;
+    height: 400px;
+    border-radius: 4px;
+    text-align: center;
+    overflow: hidden;
+    transition: .5s;
+}
+.card>img{
+     width: 350px;
+}
+.abv{
+    margin-top: 40%;
+    padding: 30px;
+    font-size: 25px;
+    font-family: nyala;
+    font-weight: bolder;
+    color: #442b41;
+    background: rgba(255,255,255,.5);
+
+}
+.card>h2{
+    text-align: center;
+    font-family: Gabriola;
+    color: #442b41;
+    font-size: 30px;
+}
+.pos1:hover{
+    background-size: 400px;
+}
+.pos2:hover{
+    background-size: 400px;
+}
+.pos3:hover{
+    background-size: 400px;
+}
+.pos4:hover{
+    background-size: 400px;
+}
+.pos5:hover{
+    background-size: 400px;
+}
+.pos6:hover{
+    background-size: 400px;
+}
+.head{
+  font-size: 45px;
+  font-family:'Bree-Serif';
+}
+@media(max-width: 720px){
+  .item{
+    grid-template-columns: auto;
+  }
+}
+</style>
+<body>
+<!-- title -->
+<a href='home3.html' class="button previous">Previous</a>
+<a href='contact us.html' class="button next">Next</a>
+
+	<div style="text-align: center; margin-top: 50px;">
+	<h1 class="head">PLANTS of FLOWERS</h1>
+	</div>
+	<!--  title  -->
+  <div class="item">
+
+  <div class="card">
+    <div class="pos1"><div class="abv abv1">ROSE</div></div>
+    <button onclick="document.location='flashmob.html'">details</button>
+  </div>
+  <div class="card">
+    <div class="pos2"><div class="abv abv2">JASMINE</div></div>
+    <button onclick="document.location='Get together.html'">details</button>
+  </div>
+  <div class="card">
+    <div class="pos3"><div class="abv abv3">LILY</div></div>
+    <button onclick="document.location='Concert.html'">details</button>
+  </div>
+<div class="card">
+    <div class="pos4"><div class="abv abv3">MARIGOLD</div></div>
+    <button onclick="document.location='Freshersday.html'">details</button>
+  </div>
+<div class="card">
+    <div class="pos5"><div class="abv abv3">NARCISSUS</div></div>
+    <button onclick="document.location='graduation day.html'">details</button>
+  </div>
+  <div class="card">
+    <div class="pos6"><div class="abv abv3">SUNFLOWER</div></div>
+    <button onclick="document.location='graduation day.html'">details</button>
+  </div>
+</di>
+</body>
+</html>

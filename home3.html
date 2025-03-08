@@ -1,0 +1,190 @@
+<html>
+<head>
+</head>
+<style>
+ body{
+    background-image: url(bg5.jpeg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    margin:0;
+    background-size:100%;
+}
+.button {
+      display: inline-block;
+      padding: 10px 15px;
+      background-color: #536153;
+      color: white;
+      text-decoration: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    .button:hover {
+      background-color: #aec9b0;
+    }
+    .previous {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+
+    .next {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+button{
+background-color: skyblue;
+}
+  .item{
+   justify-content: space-around;
+    align-content: center;
+    border-image-slice: 1;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+.pos1{
+    height: 350px;
+    width: 350px;
+    background-image: url(tomato.jpeg);
+    background-size: 350px;
+    background-position: center;
+    transition: .5s;
+}
+.pos2{
+    height: 350px;
+    width: 350px;
+    background-image: url(cabbage.jpeg);
+    background-size: 350px;
+    background-position: center;
+    transition: .5s;
+}
+.pos3{
+    height: 350px;
+    width: 350px;
+    background-image: url(capsicum.jpeg);
+    background-size: 350px;
+    background-position: center;
+    transition: .5s;
+}
+.pos4{
+    height: 350px;
+    width: 350px;
+    background-image: url(chilli.jpeg);
+    background-size: 350px;
+    background-position: center;
+    transition: .5s;
+}
+.pos5{
+    height: 350px;
+    width: 350px;
+    background-image: url(brinjal.jpeg);
+    background-size: 350px;
+    background-position: center;
+    transition: .5s;
+}
+.pos6{
+    height: 350px;
+    width: 350px;
+    background-image: url(okra.jpeg);
+    background-size: 350px;
+    background-position: center;
+    transition: .5s;
+}
+.card{
+   margin: 20px;
+    width: 350px;
+    background:linear-gradient(150deg,#f17501,#f1e2b1);
+    display: grid;
+    justify-content: center;
+    height: 400px;
+    border-radius: 4px;
+    text-align: center;
+    overflow: hidden;
+    transition: .5s;
+}
+.card>img{
+     width: 350px;
+}
+.abv{
+    margin-top: 40%;
+    padding: 30px;
+    font-size: 25px;
+    font-family: nyala;
+    font-weight: bolder;
+    color: #442b41;
+    background: rgba(255,255,255,.5);
+
+}
+.card>h2{
+    text-align: center;
+    font-family: Gabriola;
+    color: #442b41;
+    font-size: 30px;
+}
+.pos1:hover{
+    background-size: 400px;
+}
+.pos2:hover{
+    background-size: 400px;
+}
+.pos3:hover{
+    background-size: 400px;
+}
+.pos4:hover{
+    background-size: 400px;
+}
+.pos5:hover{
+    background-size: 400px;
+}
+.pos6:hover{
+    background-size: 400px;
+}
+.head{
+  font-size: 45px;
+  font-family:'Bree-Serif';
+}
+@media(max-width: 720px){
+  .item{
+    grid-template-columns: auto;
+  }
+}
+</style>
+<body>
+<!-- title -->
+<a href='home2.html' class="button previous">Previous</a>
+<a href='home1.html' class="button next">Next</a>
+	<div style="text-align: center; margin-top: 50px;">
+	<h1 class="head">PLANTS of VEGETABLES</h1>
+	</div>
+	<!--  title  -->
+  <div class="item">
+
+  <div class="card">
+    <div class="pos1"><div class="abv abv1">TOMATO</div></div>
+    <button onclick="document.location='tomatodisease.html'">details</button>
+  </div>
+  <div class="card">
+    <div class="pos2"><div class="abv abv2">CABBAGE</div></div>
+    <button onclick="document.location='cabbagedisease.html'">details</button>
+  </div>
+  <div class="card">
+    <div class="pos3"><div class="abv abv3">CAPSICUM</div></div>
+    <button onclick="document.location='Capsicumdisease.html'">details</button>
+  </div>
+<div class="card">
+    <div class="pos4"><div class="abv abv3">CHILLI</div></div>
+    <button onclick="document.location='chillidisease.html'">details</button>
+  </div>
+<div class="card">
+    <div class="pos5"><div class="abv abv3">BRINJAL</div></div>
+    <button onclick="document.location='brinjaldisease.html'">details</button>
+  </div>
+  <div class="card">
+    <div class="pos6"><div class="abv abv3">OKRA</div></div>
+    <button onclick="document.location='okradisease.html'">details</button>
+  </div>
+</di>
+</body>
+</html>

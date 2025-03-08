@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.button {
+      display: inline-block;
+      padding: 10px 15px;
+      background-color: #536153;
+      color: white;
+      text-decoration: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    .button:hover {
+      background-color: #aec9b0;
+    }
+    .previous {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-image: url("green.jpg");
+  color: rgba(0, 0, 0, 0.993);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: rgb(24, 6, 6);
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <a href='homepage.html' class="button previous">GO TO HOME</a>
+  <h1>CONTACT US</h1>
+  <p>We appreciate your interest in our website and share your passion for cultivating thriving plants</p>
+  <p>"Get in touch with us through our Contact Us page, where you can reach out to our dedicated customer support team<br> We value your feedback and are committed to providing you with exceptional service."</p>
+</div>
+
+<h1 style="text-align:center">Our Team</h1>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="C:\Users\HP\Downloads\pg.jpg" width="250" height="130">
+      <div class="container">
+        <h2>Arshiya</h2>
+        <p class="title">Team member</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>arshiya7241@gmail.com</p>
+        <p><button class="button">Contact mail</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="C:\Users\HP\Downloads\maleicon.jpeg" width="250" height="130" alt="Mike">
+      <div class="container">
+        <h2>Shravan kumar</h2>
+        <p class="title">Team member</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>shravan357159@gmail.com</p>
+        <p><button class="button">Contact mail</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="C:\Users\HP\Downloads\maleicon.jpeg" width="250" height="130" alt="Mike">
+      <div class="container">
+        <h2>Hemanth</h2>
+        <p class="title">Team member</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>chinnucharan943@gmail.com</p>
+        <p><button class="button">Contact mail</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="C:\Users\HP\Downloads\maleicon.jpeg" width="250" height="130" alt="Mike">
+      <div class="container">
+        <h2>Punith raju</h2>
+        <p class="title">Team member</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>punithrock456@gmail.com</p>
+        <p><button class="button">Contact mail</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="C:\Users\HP\Downloads\pg.jpg" width="250" height="130">
+      <div class="container">
+        <h2>Gowthami</h2>
+        <p class="title">Team member</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>mgowthamireddy687@gmail.com</p>
+        <p><button class="button">Contact mail</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="C:\Users\HP\Downloads\pg.jpg" width="250" height="130">
+      <div class="container">
+        <h2>Vinitha sree</h2>
+        <p class="title">Team member</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>vinithasree04@gmail.com</p>
+        <p><button class="button">Contact mail</button></p>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html>
